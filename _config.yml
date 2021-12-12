@@ -1,9 +1,10 @@
-title: Kyle'Log
-name: "Kaihua(Kyle) Tang's Tech Blog"
-author: Kaihua Tang
-baseurl: "/kyle-blog"
+title: Lil'Log
+name: "Lilian's Tech Blog"
+author: Lilian Weng
+twitter_username: lilianweng
+baseurl: "/lil-log"
 description: Document my learning notes.
-profile_url: "https://kaihuatang.github.io/"
+profile_url: "http://lilianweng.github.io"
 
 # Build settings
 markdown: kramdown
