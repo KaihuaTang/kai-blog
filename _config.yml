@@ -1,4 +1,4 @@
-title: Kyle's Blog (Constructing, modified from Lil'log)
+title: Kyle's Blog
 name: "Kaihua(Kyle) Tang's Tech Blog"
 author: Kaihua Tang
 twitter_username: northShepherd_
@@ -9,6 +9,7 @@ profile_url: "https://kaihuatang.github.io/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+future: true
 excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
