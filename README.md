@@ -1,2 +1,2 @@
-# Lil'Log
-Lilian's Blog
+# Kyle's Blog
+Kaihua(Kyle)'s Blog
