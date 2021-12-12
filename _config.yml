@@ -1,6 +1,7 @@
-title: Kyle'Log
+title: Kyle's Blog
 name: "Kaihua(Kyle) Tang's Tech Blog"
 author: Kaihua Tang
+twitter_username: northShepherd_
 baseurl: "/kyle-blog"
 description: Document my learning notes.
 profile_url: "https://kaihuatang.github.io/"
@@ -8,6 +9,7 @@ profile_url: "https://kaihuatang.github.io/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+future: true
 excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
