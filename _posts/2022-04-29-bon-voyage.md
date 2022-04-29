@@ -7,7 +7,7 @@ tags: emotion
 ---
 
 
-> To Hong-Lin, thank you for your company in the past three years.
+> To my once loved HL, thank you for your company in the past three years.
 
 <!--more-->
 
@@ -39,4 +39,5 @@ tags: emotion
 
 我有我的
 
-风景和故事
+风景与故事
+
