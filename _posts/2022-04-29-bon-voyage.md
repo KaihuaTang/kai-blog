@@ -15,7 +15,7 @@ tags: emotion
 * TOC
 {:toc}
 
-![My Logo]({{ '/assets/images/220429_bon_voyage.jpg' | relative_url }})
+![My Logo]({{ '/assets/images/20220429_bon_voyage.jpg' | relative_url }})
 {: style="width: 75%;" class="center"}
 *The image is created by App: Dream by WOMBO*
 {:.image-caption}
