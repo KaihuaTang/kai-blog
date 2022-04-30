@@ -1,2 +1,2 @@
 # Kai's Blog
-Kaihua(Kai)'s Blog
+Kai-Hua(Kai)'s Blog
