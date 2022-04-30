@@ -1,2 +1,2 @@
-# Kyle's Blog
-Kaihua(Kyle)'s Blog
+# Kai's Blog
+Kaihua(Kai)'s Blog
