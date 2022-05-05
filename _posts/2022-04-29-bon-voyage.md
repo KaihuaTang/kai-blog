@@ -7,7 +7,7 @@ tags: emotion
 ---
 
 
-> To my once loved HL, thank you for your company in the past three years.
+> A farewell letter to the past.
 
 <!--more-->
 
