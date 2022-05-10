@@ -1,0 +1,96 @@
+---
+layout: post
+comments: true
+title: "Disco Diffusion 5.2 Learning Note 1"
+date: 2022-05-10 02:00:00
+tags: Generative Models
+---
+
+
+> The background of Disco Diffusion.
+
+<!--more-->
+
+{: class="table-of-content"}
+* TOC
+{:toc}
+
+
+## What is Disco Diffusion
+
+Hello World, balabalabala
+
+
+
+
+
+
+## Emphasis
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+
+
+## Lists
+
+Unordered
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+
+
+Ordered
+1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
+
+
+## Images
+
+
+![My Logo]({{ '/assets/logos/logo_home.png' | relative_url }})
+{: style="width: 50%;" class="center"}
+*Fig. 1: This Logo is created by Troll (https://dribbble.com/shots/4668586-Red-Panda). All rights reserved by Him/Her.*
+{:.image-caption}
+
+
+## Links
+[GitHub](http://github.com)
+
+
+## Blockquotes
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+
+## Inline code
+To print some text with python, you should use the `print()` function.
+```
+print("Hello world!")
+```
+
+
+## Example of Mathematic Fomulars
+
+$$
+\mathcal{L}_u^\Pi = \sum_{\mathbf{x} \in \mathcal{D}} \text{MSE}(f_\theta(\mathbf{x}), f'_\theta(\mathbf{x}))
+$$
+
+$$n$$ feed-forward networks as experts $$\{E_i\}^n_{i=1}$$
+
+$$p(x)$$, $$p(y \mid x)$$, $$\frac{p(x)}{p(y)}$$, $$p(y \mid x)=\frac{p(x \mid y)p(y)}{p(x)}$$
+
+## References
+
+[1] Lilian Weng. [“Lil'Log”](https://lilianweng.github.io/lil-log/).
