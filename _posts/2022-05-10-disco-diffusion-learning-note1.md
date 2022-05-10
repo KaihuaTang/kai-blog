@@ -36,6 +36,14 @@ A detailed introduction of Disco Diffusion can be found at [URL](https://docs.go
 
 ## What is CLIP
 
+### The summary of CLIP
+
+### The pseudocode for the core of an implementation of CLIP
+
+### The application of CLIP
+
+
+
 
 ## What is Diffusion Model
 
