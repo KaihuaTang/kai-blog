@@ -16,12 +16,13 @@ tags: Generative Models
 {:toc}
 
 
-## What is Disco Diffusion
+## What is Disco Diffusion [1](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit)
 
 Hello World, balabalabala
 
 
-
+## References
+[1] Zippy's Disco Diffusion Cheatsheet v0.3 [URL](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit)
 
 
 
