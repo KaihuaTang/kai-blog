@@ -7,7 +7,7 @@ tags: generative_models
 ---
 
 
-> The background of Disco Diffusion, including the brief introduction of CLIP and Diffusion model. This article is written for those researchers and engineers who seek to understand the underline mechanism of the Disco Diffusion. If you just want to run the demo as a black-box system, you can skip this article.
+> The background of Disco Diffusion, including the brief introduction of CLIP and Diffusion model. This article is written for those researchers and engineers who seek to understand the underlying mechanism of the Disco Diffusion. If you just want to run the Disco Diffusion as a black-box system, you can skip this article.
 
 <!--more-->
 
