@@ -7,7 +7,7 @@ tags: generative_models
 ---
 
 
-> The background of Disco Diffusion, including the brief introduction of CLIP and Diffusion model.
+> The background of Disco Diffusion, including the brief introduction of CLIP and Diffusion model. This article is written for those researchers and engineers who seek to understand the underline mechanism of the Disco Diffusion. If you just want to run the demo as a black-box system, you can skip this article.
 
 <!--more-->
 
@@ -125,6 +125,3 @@ $$n$$ feed-forward networks as experts $$\{E_i\}^n_{i=1}$$
 
 $$p(x)$$, $$p(y \mid x)$$, $$\frac{p(x)}{p(y)}$$, $$p(y \mid x)=\frac{p(x \mid y)p(y)}{p(x)}$$
 
-## References
-
-[1] Lilian Weng. [“Lil'Log”](https://lilianweng.github.io/lil-log/).
