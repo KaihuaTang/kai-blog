@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: "Disco Diffusion 5.2 Learning Note 1"
+title: "Disco Diffusion v5.2 Learning Note 1"
 date: 2022-05-10 02:00:00
-tags: Generative Models
+tags: generative_models
 ---
 
 
