@@ -31,7 +31,7 @@ A detailed introduction of Disco Diffusion can be found at [URL](https://docs.go
 
 ![My Logo]({{ '/assets/images/20220510_disco_diffusion2.png' | relative_url }})
 {: style="width: 100%;" class="center"}
-*Fig. 2: an example of intermediate images generated at steps 1, 50, 100, 150, and 200 of the diffusion process \[[2](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit)\]."
+*Fig. 2: an example of intermediate images generated at steps 1, 50, 100, 150, and 200 of the diffusion process using the prompt: "A girl and a boy meet each other in a forest under the stars from a Hayao Miyazaki animation, Trending on twitter."
 {:.image-caption}
 
 ## What is CLIP
