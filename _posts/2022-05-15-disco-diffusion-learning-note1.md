@@ -36,6 +36,15 @@ A detailed introduction of Disco Diffusion can be found at [URL](https://docs.go
 
 ## What is CLIP
 
+CLIP is a multimodal neural network proposed by OpenAI \[[3](https://openai.com/blog/clip/)\], which learns correlation between visual concepts and language descriptions. It not just equips the visual model with a powerful "zero-shot" capabilities by converting the conventional classification task into a vision-and-language matching problem, *e.g.*, as shown in Fig. 3(2), we can generate different text descriptions for each category, which allows the zero-shot prediction on CLIP model, but also empowers the generative models to create images from text descriptions, *e.g.*, [Disco Diffusion](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb), [VQGAN+CLIP](https://colab.research.google.com/github/justinjohn0306/VQGAN-CLIP/blob/main/VQGAN%2BCLIP(Updated).ipynb).
+
+
+![My Logo]({{ '/assets/images/20220510_clip.png' | relative_url }})
+{: style="width: 100%;" class="center"}
+*Fig. 3: 1). how does the CLIP model get pre-trained; 2) how to convert the classification task into a vision-and-language matching problem
+{:.image-caption}
+
+
 ### The summary of CLIP
 
 ### The pseudocode for the core of an implementation of CLIP
