@@ -47,7 +47,7 @@ CLIP is a multimodal neural network proposed by OpenAI \[[3](https://openai.com/
 
 ### The summary of CLIP
 
-The basic idea behind CLIP is very simple and intuitive: if we have lots of (image, descriptive text) pairs, we can consider each pair as an positive training sample and use others as negative samples. As we can see from Fig.3 (1), after extracting text features $$\{T_i\}$$ and image features $$\{I_i\}$$, all the diagonal elements at the matching matrix $$(T_i, I_i)$$ are positive matching results and others $$(T_i, I_j)$$, i \neq j$ are negative matching results. Therefore, both the text encoder and the image encoder can be training by massive image and captioning pairs on the internet. The following pseudocode can be used to better understand how models are learned by CLIP.
+The basic idea behind CLIP is very simple and intuitive: if we have lots of (image, descriptive text) pairs, we can consider each pair as an positive training sample and use others as negative samples. As we can see from Fig.3 (1), after extracting text features $$\{T_i\}$$ and image features $$\{I_i\}$$, all the diagonal elements at the matching matrix $$(T_i, I_i)$$ are positive matching results and others $$(T_i, I_j)$$, $$i \neq j$$ are negative matching results. Therefore, both the text encoder and the image encoder can be training by massive image and captioning pairs on the internet. The following pseudocode can be used to better understand how models are learned by CLIP.
 
 
 ### The pseudocode for the core of an implementation of CLIP
