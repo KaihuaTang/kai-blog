@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title: "Disco Diffusion v5.2 Learning Note 1"
+title: "Disco Diffusion v5.2 Learning Note"
 date: 2022-05-15 02:00:00
 tags: generative_models
 ---
 
 
-> The background of Disco Diffusion, including the brief introduction of CLIP and Diffusion model. This article is written for those researchers and engineers who seek to understand the underlying mechanism of the Disco Diffusion. If you just want to run the Disco Diffusion as a black-box system, you can skip this article.
+> The learning note of Disco Diffusion, including the brief introduction of CLIP and Diffusion model, the details of Disco Diffusion project, and some useful tutorials and links. This article is written for those people who seek to understand the underlying mechanism of the Disco Diffusion.
 
 <!--more-->
 
@@ -25,9 +25,7 @@ tags: generative_models
 
 Disco Diffusion (DD) \[[1](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb), [2](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit)\] is an open-source project that generates high-quality images from the given text description, which is also known as *prompt*. The technique used by DD is called CLIP-guided Diffusion, where the CLIP \[[3](https://openai.com/blog/clip/)\] is an multi-modal pretrained model that connecting text and images, and diffusion model [4,5,6,7] is a kind of generative model that iteratively update the image from Gaussian noise to a cleaner and more detailed version of the original one (Fig. 2). Combining the above two techniques, DD is then created by [Somnai](https://twitter.com/Somnai_dreams), augmented by [Gandamu](https://twitter.com/gandamu_ml), and building on the work of [RiversHaveWings](https://twitter.com/RiversHaveWings), [nshepperd](https://twitter.com/nshepperd1), and many other collaborators.  
 
-A demo of Disco Diffusion can also be freely obtained, modified, and executed on [Google Colab Notebook](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb).
 
-A detailed introduction of Disco Diffusion can be found at [URL](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit).
 
 ![My Logo]({{ '/assets/images/20220510_disco_diffusion2.png' | relative_url }})
 {: style="width: 100%;" class="center"}
@@ -88,9 +86,23 @@ loss = (loss_i + loss_t)/2
 
 ## What is Diffusion Model
 
+(coming soon ~( ´▽｀)~)
 
 ## How Disco Diffusion Works
 
+(coming soon ~( ´▽｀)~)
+
+## Useful Links
+
+- A demo of Disco Diffusion can also be freely obtained, modified, and executed on [Google Colab Notebook](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb).
+
+- A custom Disco Diffusion v5.2 project that runs on **local GPUS**: [Local-Disco-Diffusion-v5.2.jupyterNote](https://github.com/KaihuaTang/Local-Disco-Diffusion-v5.2.jupyterNote).
+
+- A detailed introduction of Disco Diffusion can be found at [URL](https://docs.google.com/document/d/1l8s7uS2dGqjztYSjPpzlmXLjl5PM3IGkRWI3IiCuK7g/edit).
+
+- A summary of some popular artists that can be used to generate prompts: [Disco Diffusion 70+ Artist Studies](https://weirdwonderfulai.art/resources/disco-diffusion-70-plus-artist-studies/)
+
+- A summary of some modifiers that can be added as the end of the prompt for certain artistic effects: [Disco Diffusion Modifiers](https://weirdwonderfulai.art/resources/disco-diffusion-modifiers/)
 
 ## References
 
@@ -108,69 +120,5 @@ loss = (loss_i + loss_t)/2
 
 [7] What are Diffusion Models? Lil'Log [URL](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 
-## Emphasis
 
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-
-
-
-## Lists
-
-Unordered
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
-
-
-Ordered
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
-
-
-## Images
-
-
-![My Logo]({{ '/assets/logos/logo_home.png' | relative_url }})
-{: style="width: 50%;" class="center"}
-*Fig. 1: This Logo is created by Troll (https://dribbble.com/shots/4668586-Red-Panda). All rights reserved by Him/Her.*
-{:.image-caption}
-
-
-## Links
-[GitHub](http://github.com)
-
-
-## Blockquotes
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-
-
-## Inline code
-To print some text with python, you should use the `print()` function.
-```
-print("Hello world!")
-```
-
-
-## Example of Mathematic Fomulars
-
-$$
-\mathcal{L}_u^\Pi = \sum_{\mathbf{x} \in \mathcal{D}} \text{MSE}(f_\theta(\mathbf{x}), f'_\theta(\mathbf{x}))
-$$
-
-$$n$$ feed-forward networks as experts $$\{E_i\}^n_{i=1}$$
-
-$$p(x)$$, $$p(y \mid x)$$, $$\frac{p(x)}{p(y)}$$, $$p(y \mid x)=\frac{p(x \mid y)p(y)}{p(x)}$$
 
